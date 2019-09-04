@@ -1,0 +1,340 @@
+/* Font */
+@font-face {
+    font-family: Merel_Medium;
+    src: url(/font/Merel_Medium.otf);
+}
+@font-face {
+    font-family: Merel_Light;
+    src: url(/font/Merel_Light.otf);
+}
+@font-face {
+    font-family: Merel_Thin;
+    src: url(/font/Merel_Thin.otf);
+}
+@font-face {
+    font-family: Merel_Bold;
+    src: url(/font/Merel_Bold.otf);
+}
+@font-face {
+    font-family: Merel_Black;
+    src: url(/font/Merel_Black.otf);
+}
+@font-face {
+    font-family: Merel;
+    src: url(/font/Merel.otf);
+}
+/* Text */
+.mainText {
+    font-family: Merel_Black;
+    font-size: 1.8125rem;
+    line-height: 2.1875rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #215e7f;
+}
+.text {
+    font-family: Merel;
+    font-size: 18px;
+}
+.titleText {
+    font-family: Merel_Bold;
+    font-weight: 900;
+    font-size: 2.75rem;
+    line-height: 3.75rem;
+    display: inline;
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(50%,#f4a6b8),color-stop(50%,#f4a6b8)) repeat-x 0 90%;
+    background: linear-gradient(#f4a6b8 50%,#f4a6b8 0) repeat-x 0 90%;
+    background-size: 1px 1px;
+    color: #215e7f;
+}
+.titleTextPopUp {
+    font-family: Merel_Light;
+    font-size: 1.85rem;
+    color: #ffffff;
+}
+.textPopUp {
+    font-family: Merel_Thin;
+    font-size: 1.3rem;
+    color: #eeebeb;
+}
+.textCenter {
+    text-align: center;
+}
+body {
+    background: url(../image/fon.png); /* Цвет фона и путь к файлу */
+}
+.ourServices li{
+    background: none;
+}
+/* Header page */
+.mainHeaderPage {
+    background-color: #03293c;
+}
+.mainHeaderPage .mr-auto{
+    margin-right: 0px !important;
+    margin-left: auto;
+}
+.mainHeaderPage .navbar-brand {
+    font-family: Merel_Medium;
+    font-size: 25px;
+}
+.mainHeaderPage .nav-item > .newColor {
+    color: #ffffff;
+    margin: 10px;
+    font-family: Merel_Medium;
+}
+.mainHeaderPage .nav-item > .newColor:focus, .mainHeaderPage .nav-item > .newColor:hover {
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    margin: 8px;
+}
+
+/* Title Page */
+.mainTitlePage {
+    /* background-color: #03293c; */
+    background-image: url(../image/adam-przeniewski-s6AK8XxSbAM-unsplash.jpg);
+    position: relative;
+    border-bottom: 2px solid #03293c;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mainTitlePage .titleTextPage {
+    font-family: Merel_Light;
+    font-size: 55px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    padding: 150px 0 50px 0;
+    z-index: 1;
+    color: white;
+    font-weight: 600;
+}
+.mainTitlePage .gifImage {
+    position: absolute;
+    width: 350px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 0;
+}
+
+.bd-example {
+    margin: auto;
+}
+.bd-example .btn-modal {
+    margin-bottom: 100px;
+    background-color: #03293c;
+    padding: 15px;
+    border: none;
+}
+.bd-example .btn-primary {
+    background-color: #03293c;
+}
+.bd-example .btn-modal:focus, .bd-example .btn-modal:hover {
+    border: 2px solid #ffffff;
+    padding: 13px;
+}
+.btn-primary:not(:disabled):not(.disabled):active{
+    background-color: #03293c;
+    border-color: #ffffff;
+}
+.btn-primary:focus {
+    box-shadow: none;
+}
+
+
+/* Our Services */
+.mainOurServices {
+    margin: 100px 0;
+}
+
+.mainOurServices .ourServices {
+    margin: 50px 0;
+}
+
+.mainOurServices .ourServices li {
+    border-bottom: 1.5px solid #f4a6b8;
+}
+.mainOurServices .iconBlock, .mainOurServices .iconBlock{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.mainOurServices .iconImage {
+    height: 30px;
+}
+.mainOurServices .lineBootom {
+    border-bottom: 4px solid #f4a6b8;
+    width: 30%;
+    display: inline-block;
+}
+
+.mainOurServices .weProvide .imageBlock {
+    width: 100%;
+    background-repeat: no-repeat;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: cover;
+    height: 500px;
+    background-position:center;
+}
+.mainOurServices .weProvide .excursionsInBelarus {
+    background-image: url(/image/belarus.jpg);
+}
+.mainOurServices .weProvide .internationalTransport {
+    background-image: url(/image/internationalTransport.jpeg);
+}
+.mainOurServices .weProvide .businessTrip {
+    background-image: url(/image/businessTrip.jpg);
+}
+.mainOurServices .weProvide .transfer {
+    background-image: url(/image/transfer.jpg);
+}
+.mainOurServices .weProvide .celebration {
+    background-image: url(/image/celebration.jpg);
+}
+.mainOurServices .weProvide .children {
+    background-image: url(/image/children.jpg);
+}
+.mainOurServices .weProvide .paddingWeProvide {
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
+.mainOurServices .weProvide .imageBlock .popUpRight{
+    width: 400px;
+    height: 100%;
+    max-width: -moz-calc(100% - 20px);
+    max-width: -webkit-calc(100% - 20px);
+    max-width: -o-calc(100% - 20px);
+    max-width: calc(100% - 20px);
+    background: #03293c;
+    transition: 1s;
+    position: absolute;
+    right: 10px;
+    opacity: 0;
+    padding: 15px;
+}
+.mainOurServices .weProvide .imageBlock:hover .popUpRight{
+    opacity: 1;
+}
+
+.mainOurServices .weProvide .imageBlock .popUpUp{
+    width: -moz-calc(100% - 20px);
+    width: -webkit-calc(100% - 20px);
+    width: -o-calc(100% - 20px);
+    width: calc(100% - 20px);
+    height: 400px;
+    max-height: 100%;
+    background: #03293c;
+    transition: 1s;
+    position: absolute;
+    top: 0px;
+    opacity: 0;
+    padding: 15px;
+}
+.mainOurServices .weProvide .imageBlock:hover .popUpUp{
+    opacity: 1;
+}
+
+.mainOurServices .weProvide .imageBlock .popUpLeft{
+    width: 400px;
+    height: 100%;
+    max-width: -moz-calc(100% - 20px);
+    max-width: -webkit-calc(100% - 20px);
+    max-width: -o-calc(100% - 20px);
+    max-width: calc(100% - 20px);
+    background: #03293c;
+    transition: 1s;
+    position: absolute;
+    left: 10px;
+    opacity: 0;
+    padding: 15px;
+}
+.mainOurServices .weProvide .imageBlock:hover .popUpLeft{
+    opacity: 1;
+}
+.mainOurServices .ourCar .titleText{
+    margin: 0 auto;
+}
+.mainOurServices .ourCar #carouselExampleIndicators{
+    width: 100%;
+}
+
+/* Footer page */
+.mainFooterPage {
+    /* background: #ea4a4f; */
+    background: #043852;
+    padding: 2rem 0;
+}
+.mainFooterPage .foterLeft{
+    text-align: right;
+}
+.mainFooterPage .foterLogoText {
+    color: #ffffff;
+    font-family: Merel_Medium;
+    font-size: 25px;
+}
+.mainFooterPage .marginAuto {
+    margin: auto;
+}
+.mainFooterPage a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+.mainFooterPage .icon{
+    height: 35px;
+    margin: 0 3px;
+}
+.mainFooterPage .icon:hover{
+    background-color: #f7b634;
+    border-radius: 7px;
+}
+.mainFooterPage .phones{
+    font-family: Merel_Thin;
+    font-size: 18px;
+    color: #ffffff;
+}
+.mainFooterPage .phone {
+    margin: 5px 0 0 0;
+}
+.mainFooterPage .phone:hover {
+    color: #f7b634;
+}
+
+
+
+/*Media  */
+@media (max-width: 767px) {
+    /* Footer page */
+    .mainFooterPage .foterLeft{
+        text-align: center;
+    }
+    .mainFooterPage .foterLogoText{
+        text-align: center;
+    }
+}
+
+@media (max-width: 510px) {
+    /* Header page */
+    .mainHeaderPage .navbar-brand {
+        font-family: Merel_Medium;
+        font-size: 15px;
+    }
+    /* Title Page */
+    .mainTitlePage .titleText {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 410px) {
+    /* Title Page */
+    .mainTitlePage .titleText {
+        font-size: 30px;
+    }
+    .mainTitlePage .gifImage {
+        width: 250px;
+    }
+}
